@@ -1,2 +1,2 @@
 # Infinite-Carousel-Gallery
-A sliding image gallery showcasing elegant modern smart wearable and devices.
+A sliding image gallery showcasing elegant modern smart-wearables and devices.
