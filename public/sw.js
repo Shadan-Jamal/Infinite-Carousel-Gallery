@@ -7,4 +7,4 @@ for(let i=0;i<images.length;i++){
         main_image.setAttribute('src',e.target.getAttribute('src'));
         e.target.setAttribute('src',temp);
     });    
-}
+}   

@@ -626,9 +626,24 @@ video {
      object-fit: cover;
 }
 
-.brightness-50 {
-  --tw-brightness: brightness(.5);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+.opacity-20 {
+  opacity: 0.2;
+}
+
+.opacity-25 {
+  opacity: 0.25;
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+.opacity-45 {
+  opacity: 0.45;
 }
 
 #slide-path::before{
@@ -644,7 +659,7 @@ video {
 }
 
 #sliding-images{
-  animation: slide 30s linear infinite;
+  animation: slide 24s linear infinite;
 }
 
 #sliding-images:hover{
@@ -657,7 +672,7 @@ video {
 }
 
 #sliding-images img:hover{
-  filter: brightness(1);
+  opacity: 1;
   width:208px;
 }
 
@@ -667,6 +682,6 @@ video {
   }
 
   100%{
-    transform: translateX(calc(-165px*5));
+    transform: translateX(calc(-220px*5));
   }
 }

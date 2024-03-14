@@ -15,7 +15,7 @@
 }
 
 #sliding-images{
-    animation: slide 30s linear infinite;
+    animation: slide 24s linear infinite;
 }
 
 #sliding-images:hover{
@@ -28,7 +28,7 @@
 }
 
 #sliding-images img:hover{
-    filter: brightness(1);
+    opacity: 1;
     width:208px;
 }
 
@@ -37,6 +37,6 @@
         transform: translateX(0);
     }
     100%{
-        transform: translateX(calc(-165px*5));
+        transform: translateX(calc(-220px*5));
     }
 }
